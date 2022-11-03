@@ -248,6 +248,8 @@ export default class DualRecordForm extends LightningElement {
         fields['MedicareID__c']=  this.medDetail['MedicareID__c'];
         fields['MedicareEligibilityDate__c']=this.medDetail['MedicareEligibilityDate__c'];
         fields['PlanEnrollmentDate__c']=this.medDetail['PlanEnrollmentDate__c'];
+        fields['Part_A_enrollment_date__c']=this.medDetail['Part_A_enrollment_date__c'];
+        fields['Part_B_enrollment_date__c']=this.medDetail['Part_B_enrollment_date__c']; 
         fields['MedcaidID__c']=this.medDetail['MedcaidID__c'];
         fields['MediaidEligibilityDate__c']=this.medDetail['MediaidEligibilityDate__c'];
         fields['SSN__c']=this.medDetail['SSN__c'];
